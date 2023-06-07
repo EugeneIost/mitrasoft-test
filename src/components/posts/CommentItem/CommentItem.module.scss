@@ -1,0 +1,18 @@
+.comment {
+  padding: 10px 5px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+
+  &__header {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  &__body {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+}

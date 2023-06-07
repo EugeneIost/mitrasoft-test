@@ -1,0 +1,14 @@
+.burger-button {
+  background-color: white;
+  border: none;
+
+  &__row {
+    display: block;
+    width: 35px;
+    border-bottom: 4px solid rgb(0, 162, 155);
+
+    &:not(:last-child) {
+      margin-bottom: 6px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+// @import-normalize;
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--bs-body-font-family);
+}
+
+.App {
+  width: 1440px;
+  height: 100%;
+  background: rgb(250, 250, 250);
+  margin: 0 auto;
+  padding: 0 100px 50px 100px;
+}

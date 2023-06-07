@@ -1,0 +1,13 @@
+.header {
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
